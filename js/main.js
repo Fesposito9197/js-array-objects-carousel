@@ -31,8 +31,9 @@ images.forEach ((object ) => {
  template.getElementById(`photo`).src = object.image;
  template.getElementById(`title`).innerHTML = object.title;
  template.getElementById(`text`).innerHTML = object.text;
- template.querySelectorAll(`.photo-list`).src = object.image
- console.log( template.querySelectorAll(`.photo-list`).src = object.image)
+ 
+ 
+ 
 
 
  items.append(template);
