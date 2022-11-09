@@ -31,14 +31,8 @@ images.forEach ((object ) => {
  template.getElementById(`photo`).src = object.image;
  template.getElementById(`title`).innerHTML = object.title;
  template.getElementById(`text`).innerHTML = object.text;
- 
- 
- 
-
-
  items.append(template);
 } );          
-
 let item = document.querySelector(`.item`);
 item.classList.add(`d-block`);
 
